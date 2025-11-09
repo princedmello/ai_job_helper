@@ -1,0 +1,117 @@
+\documentclass{article}
+\usepackage[top=0.3in, bottom=0.3in, left=0.2in, right=0.2in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\begin{document}
+\begin{center}
+\thispagestyle{empty}
+\large \textbf{Prince Alex Dmello} \\
+\normalsize Dallas, TX $\mid$ (945) 308-2283 $\mid$ \href{mailto:princedmello13@gmail.com}{princedmello13@gmail.com} $\mid$ \href{http://linkedin.com/in/princedmello/}{linkedin.com/in/princedmello/} $\mid$ \href{http://github.com/princedmello}{github.com/princedmello} $\mid$ \href{https://princedmello.framer.website/}{Portfolio} \\
+\rule{\textwidth}{1pt}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WORK EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{WORK EXPERIENCE}}\\
+\noindent \textbf{Data Science Intern $\mid$ Media Stream AI $\mid$ New York, NY} \hfill \textbf{May 2025 - August 2025}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Devised an AI-powered video multi-tagging system with NVIDIA NIM micro services, building ETL pipelines for video preprocessing, transcription, and multimodal entity recognition, enabling a new product that analyzed 10K+ hours of video
+    \item Integrated with a vector database to manage 100TB of video, facilitating 5M+ automated tags and 80\% faster retrieval
+    %\item Implemented a Context-Aware RAG (CA-RAG) module leveraging NVIDIA NIM for video understanding, Q\&A, and summarization, achieving 90\% accurate context retrieval and directly supporting the launch of an AI-powered insights feature
+    \item Implemented a Context-Aware RAG (CA-RAG) module leveraging NVIDIA NIM for video understanding, Q\&A, and summarization, succeeding 90\% context retrieval accuracy
+    \item Migrated multi-cloud infrastructure to Azure with Cloud Formation, executing HLS streaming and auto-scaling APIs to ensure 99.99\% uptime while minimizing operational costs
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Data Scientist $\mid$ Bizdateup Technologies} \hfill \textbf{September 2021 - December 2023}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Built a venture capital data system using ETL pipelines and cloud lakes, ensuring schema accuracy and validation through 50+ automated test cases
+    \item Achieved full test coverage by guiding 12+ data engineers \& ensuring compliance through drift detection \& model integrity checks
+    \item Implemented Spark optimization with caching and tuning for distributed pipelines, reducing query latency by 46\% and storage cost by 30\%
+    \item Established MLOps CI/CD pipelines with AWS tooling and infrastructure, following Well-Architected practices to cut server spend by 20\%
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Data Scientist Intern $\mid$ Vistaar Digital} \hfill \textbf{December 2019 – January 2020}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Developed real-time ML pipelines using Airflow and distributed file systems, increasing transformation speed by 30\%
+    \item Translated schema structures into optimized data models using Parquet format, cutting redundancy by 40\% and improving ingestion
+    \item Created 12 reusable ML feature modules with Feast platform to streamline preprocessing and cut pipeline maintenance time
+\end{itemize}
+\vspace{3mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PROJECT WORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{PROJECT WORK}} \\
+\noindent \textbf{Predictive Analytics for Investment} $\mid$ \textit{\textbf{Python, Scikit-Learn, AWS SageMaker}} \hfill \href{https://github.com/princedmelloc/}{GitHub}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+     \item Refined investment datasets using SQL, correcting over 750+ inconsistencies and errors, thus improving data quality scores by 12\%
+    \item Engineered predictive features and deployed machine learning models on AWS SageMaker, leveraging hyperparameter tuning and cross-validation to optimize portfolio risk assessment and maximize ROI
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Credit Score Classification} $\mid$ \textit{\textbf{Python, Machine Learning}} \hfill \href{https://github.com/princedmello/}{GitHub}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Performed exploratory data analysis(EDA) on a credit score classification dataset containing 1 million records and 28 attributes
+    \item Implemented feature engineering, handled class imbalance with SMOTE, and built scalable Random Forest models with grid search optimization, achieving 81\% accuracy and 77\% precision in credit risk prediction
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Large-Scale Political Data Analytics} $\mid$ \textit{\textbf{Tableau, Power BI, Python, Machine Learning}} \hfill \href{https://github.com/princedmello/}{GitHub}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Conducted comprehensive data analysis on 13+ million big data points, applying advanced statistical modeling techniques
+    \item Applied NLP for sentiment analysis and developed predictive geospatial dashboards in Tableau, integrating demographic clustering and real-time analytics to boost engagement by 30\% and reduce decision-making time by 20\%
+\end{itemize}
+\vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TECHNICAL PROFICIENCY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent \textbf{\underline{TECHNICAL PROFICIENCY / SKILLS}}\\
+\textbf{Programming Languages:} Java, Python, SQL, JavaScript, PHP, R \\
+%\textbf{Languages:} Java (4yrs), Python (3yrs), SQL (3yrs), JavaScript (5yrs), PHP (3yrs) \\
+\textbf{Big Data \& Cloud:} AWS (SageMaker, Glue, Redshift, EC2, S3, IAM), GCP, Azure, Hadoop, Spark, Kafka, Kubernetes \\
+\textbf{Software Development:} React.js, Next.js, Spring Boot, Redux, Dialogflow, OAuth2, Bootstrap, Tailwind \\
+\textbf{Analytics \& Visualization:} Pandas, NumPy, Matplotlib, Seaborn, Feature Engineering, A/B Testing, Tableau, Power BI, Grafana \\
+\textbf{Databases \& APIs:} PostgreSQL, MySQL, NoSQL, MongoDB, Elasticsearch, RESTful APIs, GraphQL \\
+\textbf{Machine Learning \& AI:} Scikit-Learn, MLflow, Kubeflow,  TensorFlow, PyTorch, NLP, Computer Vision, Generative AI \\
+\textbf{Serialization:} Feast, Tecton, Parquet, Avro, Protocol Buffers \\
+\vspace{1 mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{EDUCATION}} \\
+\noindent \textbf{Master of Science in Information Systems} \hfill \textbf{ January 2024 - December 2025} \\
+The University of Texas at Arlington, Arlington, Texas \hfill \\
+\noindent \underline{Relevant coursework:} Principles of Business Data Mining, Advanced Methods for Analytics, Web and Social Analytics
+\vspace{1mm}
+
+\noindent \textbf{Bachelor of Engineering in Computer Science} \hfill \textbf{July 2017 - August 2021} \\
+University of Mumbai, Mumbai, India \hfill \\
+\noindent \underline{Relevant coursework:} Data Structures, Algorithms, Database Management, Machine Learning
+\vspace{3mm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WORK EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{LEADERSHIPS \& ACHIEVEMENTS}}\\
+\noindent \textbf{Building Manager $\mid$  Maverick Activities Center, UTA} \hfill \textbf{April 2025 - December 2025}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+   \item Directed daily operations and trained staff while optimizing organization for 50+ events, reducing safety violations by 30\% and driving stronger team coordination and overall efficiency
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Software Web Developer $\mid$ Freelance $\mid$ 500+ hours} \hfill \textbf{January 2020 - December 2023}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Grew freelance practice from single-client projects to 50+ custom websites, boosting impressions by 80\% and achieving 95\% retention through optimized project workflows and effective communication
+\end{itemize}
+\vspace{2mm}
+\end{document}

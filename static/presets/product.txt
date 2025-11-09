@@ -1,0 +1,102 @@
+\documentclass{article}
+\usepackage[top=0.3in, bottom=0.3in, left=0.2in, right=0.2in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\begin{document}
+\begin{center}
+\thispagestyle{empty}
+\large \textbf{Prince Alex Dmello} \\
+\normalsize Dallas, TX $\mid$ (945) 308-2283 $\mid$ \href{mailto:princedmello13@gmail.com}{princedmello13@gmail.com} $\mid$ \href{http://linkedin.com/in/princedmello/}{linkedin.com/in/princedmello/} $\mid$ \href{http://github.com/princedmello}{github.com/princedmello} $\mid$ \href{https://princedmello.framer.website/}{Projects} \\
+\rule{\textwidth}{1pt}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WORK EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{WORK EXPERIENCE}}\\
+\noindent \textbf{Product Manager Intern $\mid$ Media Stream AI $\mid$ New York, NY} \hfill \textbf{May 2025 - August 2025}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Devised a new B2B AI video multi-tagging product using Nvidia NIM microservices, building ETL pipelines to analyze over 10K hours of video
+    \item Integrated a vector db for product market analysis, facilitating 5M+ automated tags \& product roadmapping to improve search
+    \item Implemented a Context-Aware RAG (CA-RAG) module leveraging NVIDIA AI for video understanding, Q\&A, and summarization, succeeding 90\% context retrieval accuracy to enhance user engagement
+    \item Led migration of B2B product's infrastructure to Azure, improving platform scalability and reliability by ensuring 99.99\% uptime for enterprise clients while reducing operational costs, directly supporting a successful product launch.
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Product Manager $\mid$ Bizdateup Technologies $\mid$ Mumbai} \hfill \textbf{January 2021 - December 2023}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Built a venture capital platform to solve investor onboarding gaps, validating through 50+ test cases \& shaping the product strategy
+    \item Achieved comprehensive user story validation by coordinating across 3 teams, strengthened CRM, KYC, and e-signature APIs to address security gaps, improving protection by 20\% and shaping a B2C onboarding strategy
+    \item Addressed slow response times by initiating Redis caching, cutting latency by 46\% and improving user experience
+    \item Reduced go-to-market time for new features by 20\% by establishing CI/CD pipelines on AWS, which also lowered server costs, enabling faster product iterations and more efficient resource allocation
+    \item Structured test cases to enhance product reliability and increase execution speed by 20\%, leading to efficient feature release cycles
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Product Manager Intern $\mid$ Vistaar Digital $\mid$ Mumbai} \hfill \textbf{December 2019 – January 2020}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Elicited requirements to develop a new UI that replaced a legacy system, boosting user interaction by 30\% and setup speed by 20\%
+    \item Translated complex user pain points into streamlined UI designs using a Competitive Analysis framework, achieving 40\% less design redundancy and faster page load times for improved user experience
+    \item Developed and managed 12 reusable UI components, ensuring cohesive branding across five applications and facilitating a 30\% reduction in design-related feedback during UAT planning
+\end{itemize}
+\vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PROJECT WORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{PROJECT WORK}} \\
+\noindent \textbf{AI-Powered Operational Task Dashboard} $\mid$ \textit{\textbf{Next.js, Gemini, Vertex AI, Python}} \hfill \href{https://github.com/princedmello/}{GitHub}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Designed an Intelligent AI dashboard using LLM finetune on Gemini to achieve 96\% accuracy in complex staff assignments, demonstrating product analytics and a focus on B2B solutions
+    \item Defined a scalable Secure Model Deployment on Vertex AI, reducing manager preparation time by 80\% via Python backend and demonstrating a focus on operational efficiency
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Digital Product Launch} $\mid$ \textit{\textbf{Figma, Microsoft Clarity, Google Analytics, Meta Ads, SEO}} \hfill \href{https://princedmello.wixsite.com/learnandearn/}{Live Site}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+     \item Prepared end-to-end digital eBook launch guiding 80+ users via PRD creation and user stories, defining roadmap and increasing engagement by 45\%
+     %\item Prepared end-to-end digital eBook launch guiding 80+ users via PRD creation and user stories, increasing engagement by 45\%
+    \item Secured product-market fit through data-driven GTM strategy, SEO, A/B testing, UX optimization, and ad campaigns, achieving 35\% higher conversions and 40\% user acquisition growth
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Full Stack Storage Platform} $\mid$ \textit{\textbf{Next.js, React, Appwrite, TypeScript, TailwindCSS, ShadCN}} \hfill \href{https://github.com/princedmello/storage-management-system/}{GitHub}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Built a file storage platform to solve slow access issues for 1,000+ files, collaborating with the team to gather requirements and demonstrating leadership in achieving 30\% faster retrieval with Appwrite SDK
+    \item Enhanced UI with sorting, analytics, and access controls, boosting user engagement by 40\% through dashboard insights, highlighting a focus on product strategy
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Freelance Digital Product Consultant} $\mid$ \textit{\textbf{Figma, JavaScript, Sales Funnel, SEO}} \hfill \href{https://princedmello.framer.website/}{Portfolio Link}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+     \item Grew a portfolio of custom websites to 50+ projects, driving an 80\% increase in user engagement and achieving 95\% client retention through continuous product optimization and data-driven insights
+\end{itemize}
+\vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TECHNICAL PROFICIENCY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{TECHNICAL PROFICIENCY / SKILLS}} \\
+\textbf{Product Management \& Methodologies:} Agile \& Scrum, Product Roadmapping, Feature Prioritization, Go-to-Market (GTM) Strategy, Backlog Management, User Stories, PRD Creation, UAT Planning, Jira, Figma, Confluence, Notion, Microsoft Clarity, Google Analytics, Meta Ads \\
+\textbf{Data Analytics \& Visualization:} Competitive Analysis, Market Research, Metrics-Driven Decision Making, SQL, Tableau, Power BI, Grafana, A/B Testing \\
+\textbf{Cloud \& DevOps:} AWS (EC2, VPC, S3, IAM, Lambda), Azure, Docker, Kubernetes, Jenkins, Kafka \\
+\textbf{Programming \& Development:} Python, JavaScript, Java, React.js, Next.js, Spring Boot, LangChain, Git, REST APIs \\
+\textbf{Databases:} SQL Server, MySQL, PostgreSQL, MongoDB, Elasticsearch, Redis
+\vspace{2 mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{EDUCATION}} \\
+\noindent \textbf{Master of Science in Information Systems} \hfill \textbf{ January 2024 - December 2025} \\
+The University of Texas at Arlington, Arlington, Texas
+\vspace{1mm}
+
+\noindent \textbf{IBM AI Product Manager Professional Certificate} \hfill \textbf{ October 2025 - December 2025} \\
+IBM, New York, NY
+\vspace{1mm}
+\end{document}

@@ -1,0 +1,120 @@
+\documentclass{article}
+\usepackage[top=0.3in, bottom=0.3in, left=0.2in, right=0.2in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\begin{document}
+\begin{center}
+\thispagestyle{empty}
+\large \textbf{Prince Alex Dmello} \\
+\normalsize Dallas, TX $\mid$ (945) 308-2283 $\mid$ \href{mailto:princedmello13@gmail.com}{princedmello13@gmail.com} $\mid$ \href{http://linkedin.com/in/princedmello/}{linkedin.com/in/princedmello/} $\mid$ \href{http://github.com/princedmello}{github.com/princedmello} $\mid$ \href{https://princedmello.framer.website/}{Portfolio} \\
+\rule{\textwidth}{1pt}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SUMMARY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{SUMMARY}}\\
+\noindent Software Engineer with 4+ years of experience specializing in high-impact AI/ML solutions (GenAI, RAG, Vertex AI) built on a proven foundation of scalable full-stack development (Java, Spring Boot, React) and cloud engineering (AWS, GCP) \hfill 
+\vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WORK EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{WORK EXPERIENCE}}\\
+\noindent \textbf{Software Developer Intern $\mid$ Media Stream AI $\mid$ New York, NY} \hfill \textbf{May 2025 - August 2025}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item Contributed to an AI-powered video multi-tagging system with NVIDIA NIM micro services, building ETL pipelines for video preprocessing, transcription, and multimodal entity recognition, enabling a new product that analyzed 10K+ hours of video
+\item Integrated with a vector database to manage 100TB of video, facilitating 5M+ automated tags and 80\% faster retrieval
+\item Implemented a Context-Aware RAG (CA-RAG) module leveraging NVIDIA NIM for video understanding, Q\&A, and summarization, succeeding 90\% context retrieval accuracy
+\item Assisted in the multi-cloud infrastructure migration to Azure using Terraform, executing HLS streaming and auto-scaling APIs to ensure 99.99\% uptime while minimizing operational costs
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Software Development Engineer $\mid$ Bizdateup Technologies $\mid$ Mumbai} \hfill \textbf{January 2021 - December 2023}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item Built a venture capital platform using React \& Spring Boot, onboarding of 50+ investors \& managed \$10M+ in assets in first year
+\item Achieved comprehensive test coverage by coordinating across 3 teams, strengthened CRM, KYC, and e-signature APIs to address security gaps, improving protection by 20\% and shaping business onboarding strategy
+\item Initiated Redis caching to address slow response times, cutting latency by 46\% and database load by 30\%
+\item Established CI/CD pipelines to streamline deployment bottlenecks, designed AWS infrastructure, reducing server costs by 20\%
+\item Structured test cases using JUnit annotations to enhance code maintainability and increase execution speed by 20\%, leading to more efficient software development cycles
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Software Developer Intern $\mid$ Vistaar Digital $\mid$ Mumbai} \hfill \textbf{December 2020 – January 2021}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item Developed new UI to replace legacy system using Angular CLI and JavaScript, boosting interaction 30\% and setup speed 20\%
+\item Translated complex wireframes into streamlined UI designs using Sass to address style inconsistencies, achieving 40\% less CSS redundancy and faster page load times
+\item Created 12 reusable UI components into existing platforms, ensuring cohesive branding across 5 applications; this initiative facilitated a 30\% reduction in design-related feedback during the development phase
+\end{itemize}
+\vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PROJECT WORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{PROJECT WORK}} \\
+\noindent \textbf{AI-Powered Operational Task Dashboard} $\mid$ \textit{\textbf{Next.js, Gemini, Vertex AI, Python}} \hfill \href{https://github.com/princedmello/}{GitHub}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item Designed an Intelligent AI dashboard using LLM finetune on Gemini to achieve 96\% accuracy in complex staff assignments
+\item Defined a scalable Secure Model Deployment on Vertex AI, reducing manager preparation time by 80\% via Python backend
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Full Stack Storage Platform} $\mid$ \textit{\textbf{Next.js, React, Appwrite, TypeScript, TailwindCSS, ShadCN}} \hfill \href{https://github.com/princedmello/}{GitHub}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item Built a file storage platform to solve slow access issues for 1,000+ files, collaborating with the team to gather requirements and demonstrating leadership in achieving 30\% faster retrieval with Appwrite SDK
+\item Enhanced UI with sorting, analytics, and access controls, boosting user engagement by 40\% through dashboard insights
+\end{itemize}
+\vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TECHNICAL PROFICIENCY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{TECHNICAL PROFICIENCY / SKILLS}} \\
+\textbf{Core Languages:} Java, Python, SQL, JavaScript, PHP, C, C\#, Golang \\
+\textbf{Cloud \& DevOps:} AWS (EC2, VPC, S3, IAM, Lambda), GCP, IBM, Azure, Docker, Kubernetes, Jenkins, Nginx, Kafka, Jira \\
+\textbf{Frameworks:} Spring Boot, React.js, Next.js, Angular, Redux, Microservices, RESTful APIs, GraphQL, OAuth2, Dialogflow \\
+\textbf{Databases \& Tools:} MySQL, PostgreSQL, MongoDB, SQL Server, Redis, Elasticsearch, GitHub, JUnit, Postman, Selenium \\
+\textbf{AI/ML:} GenAI, LangChain, Qwen, Mistral, Google Vertex AI, Machine Learning, Snowflake Cortex
+\vspace{2 mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{EDUCATION}} \\
+\noindent \textbf{Master of Science in Information Systems} \hfill \textbf{ January 2024 - December 2025} \\
+The University of Texas at Arlington, Arlington, Texas \hfill \\
+\noindent \underline{Relevant coursework:} Cloud Computing, Software Engineering, Agile Scrum methodology, Data Warehousing
+\vspace{1mm}
+
+\noindent \textbf{Bachelor of Engineering in Computer Science} \hfill \textbf{July 2017 - August 2021} \\
+University of Mumbai, Mumbai, India \hfill \\
+\noindent \underline{Relevant coursework:} Data Structures, Algorithms, Database Management, Machine Learning
+\vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Certifications
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{CERTIFICATIONS}}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=1em]
+\item Open AI ChatGPT Prompt Engineering for Developers
+\item IBM FullStack Software Developer Professional
+\end{itemize}
+\vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LEADERSHIPS & ACHIEVEMENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{LEADERSHIPS \& ACHIEVEMENTS}}\\
+\noindent \textbf{Building Manager $\mid$ Maverick Activities Center, UTA} \hfill \textbf{April 2025 - December 2025}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item Directed daily operations for a high-traffic center, training staff and optimizing organization for 50+ weekly events, resulting in a 30\% reduction in safety violations
+\end{itemize}
+\vspace{2mm}
+\end{document}

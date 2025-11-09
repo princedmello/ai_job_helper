@@ -1,0 +1,111 @@
+\documentclass{article}
+\usepackage[top=0.3in, bottom=0.3in, left=0.2in, right=0.2in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\begin{document}
+\begin{center}
+\thispagestyle{empty}
+\large \textbf{Prince Alex Dmello} \\
+\normalsize Dallas, TX $\mid$ (945) 308-2283 $\mid$ \href{mailto:princedmello13@gmail.com}{princedmello13@gmail.com} $\mid$ \href{http://linkedin.com/in/princedmello/}{linkedin.com/in/princedmello/} $\mid$ \href{http://github.com/princedmello}{github.com/princedmello} $\mid$ \href{https://princedmello.framer.website/}{Portfolio} \\
+\rule{\textwidth}{1pt}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WORK EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{WORK EXPERIENCE}}\\
+\noindent \textbf{AI Engineer Intern $\mid$ Media Stream AI $\mid$ New York, NY} \hfill \textbf{May 2025 - August 2025}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Devised an AI-powered video multi-tagging system with supervised learning and foundation models, building ETL pipelines for preprocessing, transcription, and entity recognition, enabling a product analyzing 10K+ hours of video
+    \item Integrated with a vector database to manage 100TB of video, facilitating 5M+ automated tags and 80\% faster retrieval
+    %\item Implemented a Context-Aware RAG (CA-RAG) module leveraging NVIDIA NIM for video understanding, Q\&A, and summarization, achieving 90\% accurate context retrieval and directly supporting the launch of an AI-powered insights feature
+    \item Implemented a Context-Aware RAG (CA-RAG) module with fine-tuned LLMs for video Q\&A, summarization, and evaluation metrics, succeeding 90\% retrieval accuracy
+    \item Migrated multi-cloud infrastructure to Azure with Cloud Formation, executing HLS streaming and auto-scaling APIs to ensure 99.99\% uptime while minimizing operational costs
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{AI Software Engineer $\mid$ Bizdateup Technologies $\mid$ Mumbai} \hfill \textbf{September 2021 - December 2023}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Built a venture capital platform with AI-powered validation tools and cybersecurity measures, validating through 50+ test cases
+    \item Achieved comprehensive test coverage with human-machine collaboration, strengthened CRM, KYC, and e-signature APIs to align with AI ethics, improving protection by 20\% and shaping onboarding strategy
+    \item Initiated Redis caching to address slow response times, cutting latency by 46\% and database load by 30\%
+    \item Established CI/CD pipelines to streamline deployment bottlenecks, designed AWS infrastructure, reducing server costs by 20\%
+    \item Structured test cases using JUnit annotations to enhance code maintainability and increase execution speed by 20\%, leading to more efficient software development cycles
+    %\item Championed cross-team initiatives and mentored interns, expanding from individual contributor to leadership-focused engineer
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Machine Learning Intern $\mid$ Vistaar Digital $\mid$ Mumbai} \hfill \textbf{December 2019 – January 2020}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Developed a chatbot using a custom NLP model for investors, improving clarity on the platform and boosting engagement by 35\%
+    \item Translated user data into actionable insights with machine learning, enhancing investment recommendations accuracy by 25\%
+    \item Created AI-driven modules to integrate chatbot responses into 3 edetailing dashboards, ensuring 95\% consistency and reducing query resolution time by 40\%
+    \item Applied machine learning models to analyze e-detailing interaction logs, generating usage insights that improved content personalization by 25\% and boosted engagement efficiency across campaigns
+\end{itemize}
+\vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PROJECT WORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{PROJECT WORK}} \\
+\noindent \textbf{AI-Powered Schedule Formatter} $\mid$ \textit{\textbf{Flask, Gemini API, Next.js, React}} \hfill \href{https://github.com/princedmello/}{GitHub}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Built a web tool that structured raw agenda text via Gemini-2.0 LLM and Flask REST APIs, applying prompt engineering to auto-format daily schedules, storing JSON history, and deploying on cloud servers for public access
+    \item Enhanced the interface with agenda input, copy/share, and AI-based formatting outputs, boosting user adoption by 40\% and ensuring persistent retrieval of structured schedules with optimized Gemini integration
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{URL Shortener Prototype} $\mid$ \textit{\textbf{React, Express, MongoDB, NodeJS, AWS}} \hfill \href{https://github.com/princedmello/}{GitHub}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Prepared URL shortening system to simplify link sharing, cutting management time by 50\% for over 100 users
+    \item Secured 15 \textbf{REST API} endpoints using \textbf{JWT tokens} and \textbf{OAuth2}, boosting data security by 30\%, and deployed the application on \textbf{AWS} using \textbf{Docker} images with a \textbf{Spring Boot} backend
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Simulation of AHA Ideas} $\mid$ \textit{\textbf{ React, AWS, Docker, Jenkins}} \hfill \href{https://github.com/princedmelloc/}{GitHub}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Designed microservices platform to enable community ideation, upgrading with voting and commenting features for 100+ user ideas
+    \item Defined a \textbf{CI/CD pipeline} using \textbf{Jenkins}, deploying microservices on \textbf{AWS EC2} with \textbf{Docker} and load balancers
+\end{itemize}
+\vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TECHNICAL PROFICIENCY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{TECHNICAL PROFICIENCY / SKILLS}}\\
+\textbf{Programming Languages:} Python, Java, R, SQL, JavaScript, PHP, TypeScript \\
+\textbf{AI / Machine Learning:} Generative AI, Prompt Engineering, LLMs (Gemini, GPT, LangChain, Nvidia LLM, Mistral, Qwen2VL, Bedrock, OpenAI, Copilot), Deep Learning, Neural Networks (CNN, Siamese Networks, One-Shot Algorithms, YOLO), Supervised \& Reinforcement Learning, Model Fine-Tuning, Evaluation Metrics, NLP, Computer Vision, Synthetic Data, Data Labeling \\
+%\textbf{Languages:} Java (4yrs), Python (3yrs), SQL (3yrs), JavaScript (5yrs), PHP (3yrs) \\
+\textbf{Cloud \& DevOps:} AWS (EC2, VPC, S3, IAM, Lambda), GCP, Azure, Docker, Kubernetes, Jenkins, Nginx, Kafka, Jira \\
+\textbf{Software Development:} React.js, Next.js, Spring Boot, Redux, Dialogflow, OAuth2, Bootstrap, Tailwind
+\vspace{2 mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{EDUCATION}} \\
+\noindent \textbf{Master of Science in Information Systems} \hfill \textbf{ January 2024 - December 2025} \\
+The University of Texas at Arlington, Arlington, Texas \hfill \\
+\noindent \underline{Relevant coursework:} Cloud Computing, Agile Scrum methodology, Data Warehousing and Business Intelligence
+\vspace{1mm}
+
+\noindent \textbf{Bachelor of Engineering in Computer Science} \hfill \textbf{July 2017 - August 2021} \\
+University of Mumbai, Mumbai, India \hfill \\
+\noindent \underline{Relevant coursework:} Data Structures, Algorithms, Database Management, Machine Learning
+\vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WORK EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{LEADERSHIPS \& ACHIEVEMENTS}}\\
+\noindent \textbf{Building Manager $\mid$  Maverick Activities Center, UTA} \hfill \textbf{April 2025 - December 2025}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+   \item Directed daily operations and trained staff while optimizing organization for 50+ events, reducing safety violations by 30\% and driving stronger team coordination and overall efficiency
+\end{itemize}
+\vspace{1mm}
+\end{document}

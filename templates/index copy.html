@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Job Application Helper</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #4a4a4a;
+        }
+        .inputs-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .input-area textarea {
+            width: 100%;
+            height: 300px;
+            box-sizing: border-box; /* Important for 100% width */
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 14px;
+        }
+        .controls {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .controls button {
+            background-color: #007aff;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            margin: 5px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.2s;
+        }
+        .controls button:hover {
+            background-color: #005bb5;
+        }
+        .controls button:disabled {
+            background-color: #aaa;
+            cursor: not-allowed;
+        }
+        .outputs-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .output-box {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .output-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .output-header h3 {
+            margin: 0;
+        }
+        .output-header button {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .output-header button:active {
+            background-color: #e0e0e0;
+        }
+        .output-content {
+            padding: 15px;
+            min-height: 150px;
+            max-height: 400px;
+            overflow-y: auto;
+            white-space: pre-wrap; /* Preserves formatting */
+            word-wrap: break-word; /* Breaks long words */
+            background-color: #fafafa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>AI Job Application Helper</h1>
+
+        <div class="inputs-grid">
+            <div class="input-area">
+                <h3>Resume (LaTeX Code)</h3>
+                <textarea id="resume-input" placeholder="Paste your full LaTeX resume code here..."></textarea>
+            </div>
+            <div class="input-area">
+                <h3>Job Description</h3>
+                <textarea id="job-desc-input" placeholder="Paste the job description here..."></textarea>
+            </div>
+        </div>
+
+      <div class="controls">
+    <button id="btn-generate-all" onclick="handleGenerateAll()">
+        ✨ Generate All 4
+    </button>
+</div>
+
+        <div class="outputs-grid">
+            <div class="output-box">
+                <div class="output-header">
+                    <h3>Tailored Resume (LaTeX)</h3>
+                    <button onclick="handleCopy('output-resume')">Copy</button>
+                </div>
+                <pre id="output-resume" class="output-content">Click "Generate Tailored Resume" to see results...</pre>
+            </div>
+
+            <div class="output-box">
+                <div class="output-header">
+                    <h3>Cover Letter</h3>
+                    <button onclick="handleCopy('output-cover')">Copy</button>
+                </div>
+                <pre id="output-cover" class="output-content">Click "Generate Cover Letter" to see results...</pre>
+            </div>
+
+            <div class="output-box">
+                <div class="output-header">
+                    <h3>LinkedIn Note</h3>
+                    <button onclick="handleCopy('output-linkedin')">Copy</button>
+                </div>
+                <pre id="output-linkedin" class="output-content">Click "Generate LinkedIn Note" to see results...</pre>
+            </div>
+
+            <div class="output-box">
+                <div class="output-header">
+                    <h3>Cold Email</h3>
+                    <button onclick="handleCopy('output-email')">Copy</button>
+                </div>
+                <pre id="output-email" class="output-content">Click "Generate Cold Email" to see results...</pre>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    // Store output element IDs for each type
+    const outputMapping = {
+        'resume': 'output-resume',
+        'cover_letter': 'output-cover',
+        'linkedin_note': 'output-linkedin',
+        'cold_email': 'output-email'
+    };
+
+    // The main "Generate All" button
+    const generateAllButton = document.getElementById('btn-generate-all');
+
+    async function handleGenerateAll() {
+        const resumeInput = document.getElementById('resume-input').value;
+        const jobDescInput = document.getElementById('job-desc-input').value;
+
+        if (!resumeInput || !jobDescInput) {
+            alert('Please fill in both the Resume and Job Description fields.');
+            return;
+        }
+
+        // --- Disable button ---
+        generateAllButton.disabled = true;
+
+        // --- BATCH 1 (Resume + Cover Letter) ---
+        generateAllButton.innerText = 'Generating Batch 1/2...';
+        document.getElementById('output-resume').innerText = 'Generating...';
+        document.getElementById('output-cover').innerText = 'Generating...';
+
+        const batch1_promises = [
+            generateSingle(resumeInput, jobDescInput, 'resume'),
+            generateSingle(resumeInput, jobDescInput, 'cover_letter')
+        ];
+
+        try {
+            await Promise.all(batch1_promises);
+        } catch (error) {
+            console.error("Error in Batch 1:", error);
+            // We'll continue to Batch 2 regardless
+        }
+
+        // --- DELAY FOR 60-SECOND QUOTA ---
+        generateAllButton.innerText = 'Waiting for quota... (60s)';
+        
+        // Start a 60-second countdown timer on the button
+        let countdown = 60;
+        const countdownInterval = setInterval(() => {
+            countdown--;
+            generateAllButton.innerText = `Waiting for quota... (${countdown}s)`;
+        }, 1000);
+
+        // Wait for 61 seconds (1 minute + 1 second buffer)
+        await new Promise(resolve => setTimeout(resolve, 61000));
+        clearInterval(countdownInterval); // Stop the timer
+
+        // --- BATCH 2 (LinkedIn + Email) ---
+        generateAllButton.innerText = 'Generating Batch 2/2...';
+        document.getElementById('output-linkedin').innerText = 'Generating...';
+        document.getElementById('output-email').innerText = 'Generating...';
+
+        const batch2_promises = [
+            generateSingle(resumeInput, jobDescInput, 'linkedin_note'),
+            generateSingle(resumeInput, jobDescInput, 'cold_email')
+        ];
+
+        try {
+            await Promise.all(batch2_promises);
+            generateAllButton.innerText = '✅ All Done!';
+        } catch (error) {
+            console.error("Error in Batch 2:", error);
+            generateAllButton.innerText = 'Error (Check Console)';
+        } finally {
+            // Re-enable the button after a short delay
+            setTimeout(() => {
+                generateAllButton.disabled = false;
+                generateAllButton.innerText = '✨ Generate All 4';
+            }, 2000);
+        }
+    }
+
+    // This helper function makes ONE request and updates ONE output box
+    // (This function is unchanged from before)
+    async function generateSingle(resumeInput, jobDescInput, promptType) {
+        const outputElementId = outputMapping[promptType];
+        const outputElement = document.getElementById(outputElementId);
+
+        try {
+            const response = await fetch('/generate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    resume_latex: resumeInput,
+                    job_description: jobDescInput,
+                    prompt_type: promptType
+                })
+            });
+
+            const data = await response.json();
+
+            if (response.ok) {
+                outputElement.innerText = data.result;
+            } else {
+                outputElement.innerText = `Error: ${data.error}`;
+            }
+        } catch (error) {
+            outputElement.innerText = `Error: ${error.message}`;
+        }
+    }
+
+    // --- Your existing Copy function (no changes needed) ---
+    function handleCopy(outputId) {
+        const outputElement = document.getElementById(outputId);
+        const textToCopy = outputElement.innerText;
+
+        if (navigator.clipboard) {
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                alert('Copied to clipboard!');
+            }).catch(err => {
+                alert('Failed to copy.');
+                console.error('Failed to copy text: ', err);
+            });
+        } else {
+            // Fallback for older browsers
+            const textArea = document.createElement('textarea');
+            textArea.value = textToCopy;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+            alert('Copied to clipboard!');
+        }
+    }
+</script>
+
+</body>
+</html>

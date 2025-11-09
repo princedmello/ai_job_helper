@@ -1,0 +1,117 @@
+\documentclass{article}
+\usepackage[top=0.3in, bottom=0.3in, left=0.2in, right=0.2in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\begin{document}
+\begin{center}
+\thispagestyle{empty}
+\large \textbf{Prince Alex Dmello} \\
+\normalsize Dallas, TX $\mid$ (945) 308-2283 $\mid$ \href{mailto:princedmello13@gmail.com}{princedmello13@gmail.com} $\mid$ \href{http://linkedin.com/in/princedmello/}{linkedin.com/in/princedmello/} $\mid$ \href{http://github.com/princedmello}{github.com/princedmello} $\mid$ \href{https://princedmello.framer.website/}{Portfolio} \\
+\rule{\textwidth}{1pt}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WORK EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{WORK EXPERIENCE}}\\
+\noindent \textbf{Data Engineer Intern $\mid$ Media Stream AI $\mid$ New York, NY} \hfill \textbf{May 2025 - August 2025}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Devised a scalable data processing system with Python and Airflow microservices, designing ETL pipelines for ingestion, transformation, and schema management, enabling analytics across 10K+ hours of data
+    \item Integrated a partitioned data warehouse with ETL pipelines, managing 100TB of data and 5M+ records for faster query performance
+    \item Engineered a Spark Structured Streaming module which enriched data in real-time and improved data pipeline efficiency by 15\%, while supporting schema validation and event processing for data aggregation
+    \item Migrated multi-cloud infrastructure to Azure with Terraform and Kubernetes, deploying auto-scaling data APIs, secure IAM access, and HLS pipelines to ensure 99.99\% uptime with reduced costs
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Data Engineer $\mid$ Bizdateup Technologies} \hfill \textbf{September 2021 - December 2023}
+
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Built a venture capital platform using ETL pipelines and data lakes, validating data consistency via 50+ automated checks
+    \item Achieved 99\% pipeline reliability by leading 12+ member team, enhancing data integrity, governance, compliance, monitoring, orchestration, and fault-tolerance workflows across the platform
+    \item Implemented Apache Spark caching and partitioning to optimize queries, cutting latency by 46\% and reducing storage costs by 30%
+    \item Established streamlined CI/CD pipelines for Airflow DAGs, integrating version control, containerization, testing, deployment automation, and pipeline scheduling, improving operational efficiency by 20\%
+    \item Structured PyTest data validation and Airflow DAG tests to improve pipeline reliability, monitoring, and execution speed by 20\%
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Data Engineer Intern $\mid$ Vistaar Digital} \hfill \textbf{December 2019 – January 2020}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Developed real-time data pipelines to replace legacy ETL, boosting performance by 30\% and reducing transformation times
+    \item Translated complex schema mappings into efficient data models, achieving 40\% reduction in redundancy and errors
+    \item Created 12 reusable ETL modules for existing data platforms, ensuring uniformity and reducing maintenance time
+\end{itemize}
+
+\vspace{3mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PROJECT WORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{PROJECT WORK}} \\
+\noindent \textbf{Scalable Data Pipeline} $\mid$ \textit{\textbf{Python, Airflow, AWS Glue, Redshift}} \hfill \href{https://github.com/princedmello/}{GitHub}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Formulated ETL workflows for structured/unstructured data, enabling 30\% faster processing and efficient data lake integration
+    \item Enhanced schema partitioning in Redshift and rrchestrated task scheduling in Airflow, optimizing query performance by 40\%, reducing processing delays, and ensuring scalability, fault tolerance, and data governance across the pipeline
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Real-time Data Streaming} $\mid$ \textit{\textbf{Apache Kafka, Spark, MongoDB}} \hfill \href{https://github.com/princedmelloc/}{GitHub}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Implemented a real-time streaming framework to process high-velocity events, cutting data ingestion lag by 50\%
+    \item Secured 15 Kafka stream topics with ACL policies while implementing Spark Structured Streaming, checkpointing, and schema validation, ensuring data reliability, compliance, and processing efficiency at enterprise scale
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Data Warehouse Automation} $\mid$ \textit{\textbf{Snowflake, DBT, AWS Lambda}} \hfill \href{https://github.com/princedmelloc/}{GitHub}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Defined standardized Snowflake ingestion pipelines using DBT, improving data freshness by 90\% and streamlining workflows
+    \item Designed incremental load strategies with DBT models, AWS Lambda triggers, and metadata-driven transformations, reducing storage redundancy by 20\% while improving pipeline monitoring, error handling, and CI/CD deployment reliability
+\end{itemize}
+\vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TECHNICAL PROFICIENCY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent \textbf{\underline{TECHNICAL PROFICIENCY / SKILLS}}\\
+\textbf{Programming Languages:} Java, Python, SQL, JavaScript, PHP \\
+%\textbf{Languages:} Java (4yrs), Python (3yrs), SQL (3yrs), JavaScript (5yrs), PHP (3yrs) \\
+\textbf{Cloud \& DevOps:} AWS (EC2, VPC, S3, IAM, Lambda), GCP, Azure, Docker, Kubernetes, Jenkins, Nginx, Kafka, Jira \\
+\textbf{Software Development:} React.js, Next.js, Spring Boot, Redux, Dialogflow, OAuth2, Bootstrap, Tailwind \\
+\textbf{Data Engineering:} React.js, Next.js, Spring Boot, Redux, Dialogflow, OAuth2, Bootstrap, Tailwind \\
+\textbf{Databases \& APIs:} PostgreSQL, MySQL, NoSQL, MongoDB, Elasticsearch, RESTful APIs, GraphQL \\
+\textbf{Data Analytics \& Visualization:} Tableau, Power BI, Grafana \\
+\vspace{0 mm}  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{EDUCATION}} \\
+\noindent \textbf{Master of Science in Information Systems} \hfill \textbf{ January 2024 - December 2025} \\
+The University of Texas at Arlington, Arlington, Texas \hfill \\
+\noindent \underline{Relevant coursework:} Data Warehouse and Business Intelligence, Analysis and Design, Cloud Computing
+\vspace{1mm}
+
+\noindent \textbf{Bachelor of Engineering in Computer Science} \hfill \textbf{July 2017 - August 2021} \\
+University of Mumbai, Mumbai, India \hfill \\
+\noindent \underline{Relevant coursework:} Data Structures, Algorithms, Database Management, Machine Learning
+\vspace{3mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WORK EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{LEADERSHIPS \& ACHIEVEMENTS}}\\
+\noindent \textbf{Building Manager $\mid$  Maverick Activities Center, UTA} \hfill \textbf{April 2025 - December 2025}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+   \item Directed daily operations and trained staff while optimizing organization for 50+ events, reducing safety violations by 30\% and driving stronger team coordination and overall efficiency
+\end{itemize}
+\vspace{1mm}
+
+\noindent \textbf{Software Web Developer $\mid$ Freelance $\mid$ 500+ hours} \hfill \textbf{January 2020 - December 2023}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+    \item Grew freelance practice from single-client projects to 50+ custom websites, boosting impressions by 80\% and achieving 95\% retention through optimized project workflows and effective communication
+\end{itemize}
+\vspace{2mm}
+\end{document}

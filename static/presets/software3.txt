@@ -1,0 +1,110 @@
+\documentclass{article}
+\usepackage[top=0.3in, bottom=0.3in, left=0.2in, right=0.2in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\begin{document}
+\begin{center}
+\thispagestyle{empty}
+\large \textbf{Prince Alex Dmello} \\
+\normalsize Dallas, TX $\mid$ (945) 308-2283 $\mid$ \href{mailto:princedmello13@gmail.com}{princedmello13@gmail.com} $\mid$ \href{http://linkedin.com/in/princedmello/}{linkedin.com/in/princedmello/} $\mid$ \href{http://github.com/princedmello}{github.com/princedmello} $\mid$ \href{https://princedmello.framer.website/}{Portfolio} \\
+\normalsize Work Authorization: Authorized to work in the U.S. (F-1 OPT) \\
+\rule{\textwidth}{1pt}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SUMMARY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{SUMMARY}}\\
+\noindent Software Engineer with 4+ years' experience delivering high-impact AI/ML solutions (GenAI, RAG, Vertex AI). Proven expertise in scalable full-stack development (Java, Spring Boot, React) and cloud engineering (AWS, GCP) \hfill 
+\vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WORK EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{WORK EXPERIENCE}}\\
+\noindent \textbf{Software Engineer (Graduate) $\mid$ University Of Texas at Arlington $\mid$ Dallas, TX, USA} \hfill \textbf{April 2025 – Present}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item Developed an AI-powered Next.js dashboard for operational task management, utilizing LLM finetune and prompt context engineering on the Gemini LLM to achieve 96\% accuracy in complex staff assignments
+\item Translated messy, unstructured daily agenda text into actionable, time-filtered tasks via a robust Python API, reducing manager preparation time by 80\% and freeing up 30+ hours of monthly staff time
+\item Secured a scalable Model Deployment strategy on Google Vertex AI, defining SLOs/SLAs for critical features to ensure fetch success rate under a 30-second timeout and user data integrity
+\item Designed the team collaboration system using Google Firestore, implementing a continuous feedback loop that resulted in a 60\% improvement in end-of-shift task completion rates and heightened cross-team accountability
+\end{itemize}
+\vspace{2mm}
+
+\noindent \textbf{Software Engineer Intern $\mid$ Media Stream AI $\mid$ New York, NY, USA} \hfill \textbf{January 2025 - April 2025}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item Contributed to an AI-powered video multi-tagging system with NVIDIA NIM micro services, building ETL pipelines for video preprocessing, transcription, and multimodal entity recognition, enabling a new product that analyzed 10K+ hours of video
+\item Integrated with a vector database to manage 100TB of video, facilitating 5M+ automated tags and 80\% faster retrieval
+\item Implemented a Context-Aware RAG (CA-RAG) module leveraging NVIDIA NIM for video understanding, Q\&A, and summarization, achieving 90\% context retrieval accuracy
+\item Assisted in the multi-cloud infrastructure migration to Azure using Terraform, executing HLS streaming and auto-scaling APIs to ensure 99.99\% uptime while minimizing operational costs
+\end{itemize}
+\vspace{2mm}
+
+\noindent \textbf{Software Engineer $\mid$ Bizdateup Technologies $\mid$ Mumbai, India} \hfill \textbf{January 2021 - December 2023}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item Built a venture capital platform using React \& Spring Boot, onboarding of 50+ investors \& managed \$10M+ in assets in first year
+\item Achieved comprehensive test coverage by coordinating across 3 teams, strengthened CRM, KYC, and e-signature APIs to address security gaps, improving protection by 20\% and shaping business onboarding strategy
+\item Initiated Redis caching to address slow response times, cutting latency by 46\% and database load by 30\%
+\item Established CI/CD pipelines to streamline deployment bottlenecks, designed AWS infrastructure, reducing server costs by 20\%
+\item Structured an automated testing suite of 500+ JUnit test cases, cutting nightly build failures by 30\% and reducing manual regression testing time by over 90\%
+\end{itemize}
+\vspace{3mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PROJECT WORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{PROJECT WORK}} \\
+\noindent \textbf{Contextual ChatBot (RAG System)} $\mid$ \textit{\textbf{LangChain, Chroma, Streamlit, CTransformers, Llama.cpp}} \hfill \href{https://github.com/umbertogriffo/rag-chatbot}{GitHub}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item Developed a Retrieval-Augmented Generation ChatBot integrating Llama.cpp and LangChain, improving contextual accuracy by 45\% through Markdown-based knowledge retrieval using Chroma vector storage
+\item Implemented context rewriting and memory to deliver coherent responses, improving relevance and reducing hallucinations by 30\%
+\end{itemize}
+\vspace{2mm}
+
+\noindent \textbf{Full Stack Storage Platform} $\mid$ \textit{\textbf{Next.js, React, TypeScript, TailwindCSS}} \hfill \href{https://github.com/princedmello/}{GitHub}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item Engineered a file storage platform to solve slow access issues for 1,000+ files, collaborating with the team to gather requirements and demonstrating leadership in achieving 30\% faster retrieval with Appwrite SDK
+\item Enhanced UI with sorting, analytics, and access controls, boosting user engagement by 40\% through dashboard insights
+\end{itemize}
+\vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TECHNICAL PROFICIENCY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{SKILLS}} \\
+\textbf{Core Languages:} Java, Python, SQL, JavaScript, PHP, C, C\#, Golang \\
+\textbf{Cloud \& DevOps:} AWS (EC2, VPC, S3, IAM, Lambda), GCP, IBM, Azure, Docker, Kubernetes, Jenkins, Nginx, Kafka, Jira \\
+\textbf{Frameworks:} Spring Boot, React.js, Next.js, Angular, Redux, Microservices, RESTful APIs, GraphQL, OAuth2, Dialogflow \\
+\textbf{Databases \& Tools:} MySQL, PostgreSQL, MongoDB, SQL Server, Redis, Elasticsearch, GitHub, JUnit, Postman, Selenium \\
+\textbf{AI/ML:} GenAI, LangChain, Qwen, Mistral, Google Vertex AI, Machine Learning, Snowflake Cortex
+\vspace{2 mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{EDUCATION}} \\
+\noindent \textbf{Master of Science in Information Systems} \hfill \textbf{ January 2024 - December 2025} \\
+The University of Texas at Arlington, Arlington, Texas \hfill
+\vspace{1mm}
+
+\noindent \textbf{Bachelor of Engineering in Computer Science} \hfill \textbf{July 2017 - August 2021} \\
+University of Mumbai, Mumbai, India \hfill
+\vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Certifications
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{CERTIFICATIONS}}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=1em]
+\item AWS Certified AI Practitioner
+\item Open AI ChatGPT Prompt Engineering for Developers
+\item IBM FullStack Software Developer Professional
+\end{itemize}
+\vspace{2mm}
+\end{document}
